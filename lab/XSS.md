@@ -42,6 +42,7 @@ aliases:
 	- leaving `<script>`
 
 !<img src="https://raw.githubusercontent.com/ryancranie/webappsec/refs/heads/main/_img/Pasted%20image%2020250413134847.png" width="600"/>
+---
 
 ## Example 4 - `<script>` Workaround
 

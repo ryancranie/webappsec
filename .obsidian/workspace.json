@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "lab/XSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "XSS"
             }
           }
         ]
@@ -170,14 +170,14 @@
   },
   "active": "adfc8dcaaaca955e",
   "lastOpenFiles": [
+    "lab/SQLi.md",
+    "lab/XSS.md",
+    "README.md",
     "WAS Summary.md",
     "Untitled.md",
-    "README.md",
-    "lab/XSS.md",
     "lab/XML_Attacks.md",
     "lab/File_Upload.md",
     "pentesterlab/SQLi.md",
-    "lab/SQLi.md",
     "lab/LDAP_Attacks.md",
     "lab/File_Include.md",
     "lab/Directory_Traversal.md",

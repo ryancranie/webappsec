@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aa84c7e0f9ffb706",
+        "id": "78b087a80e81e58f",
         "type": "tabs",
         "children": [
           {
-            "id": "adfc8dcaaaca955e",
+            "id": "36fe3eeb6f5ef59b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lab/XSS.md",
+                "file": "lab/File_Upload.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XSS"
+              "title": "File_Upload"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pentesterlab/XSS.md",
+                "file": "lab/File_Upload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for XSS"
+              "title": "Backlinks for File_Upload"
             }
           },
           {
@@ -142,16 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pentesterlab/XSS.md",
+                "file": "lab/File_Upload.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of XSS"
+              "title": "Outline of File_Upload"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -168,34 +169,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "adfc8dcaaaca955e",
+  "active": "36fe3eeb6f5ef59b",
   "lastOpenFiles": [
-    "lab/SQLi.md",
-    "lab/XSS.md",
-    "README.md",
-    "WAS Summary.md",
-    "Untitled.md",
-    "lab/XML_Attacks.md",
+    "notes/Web Shells.md",
     "lab/File_Upload.md",
-    "pentesterlab/SQLi.md",
-    "lab/LDAP_Attacks.md",
+    "_img/Pasted image 20250413201620.png",
     "lab/File_Include.md",
     "lab/Directory_Traversal.md",
-    "lab/Commands_Injection.md",
     "lab/Code_Injection.md",
+    "lab/Commands_Injection.md",
+    "lab/LDAP_Attacks.md",
+    "lab/SQLi.md",
+    "lab/XML_Attacks.md",
+    "lab/XSS.md",
+    "notes/Reconnaissance.md",
+    "_img/Pasted image 20250413200926.png",
+    "_img/Pasted image 20250413200203.png",
+    "_img/Pasted image 20250413193714.png",
+    "_img/Pasted image 20250413193413.png",
+    "_img/Pasted image 20250413193138.png",
+    "_img/Pasted image 20250413193043.png",
+    "_img/Pasted image 20250413193031.png",
+    "_img/Pasted image 20250413192615.png",
+    "notes",
+    "WAS Summary.md",
+    "_img/Pasted image 20250413190446.png",
+    "README.md",
+    "pentesterlab/SQLi.md",
     "lab",
     "obsidian_img.py",
-    "_img/Pasted image 20250413163318.png",
-    "_img/Pasted image 20250413162722.png",
-    "_img/Pasted image 20250413162045.png",
     "pentesterlab/XSS.md",
-    "_img/Pasted image 20250413155950.png",
-    "_img/Pasted image 20250413155539.png",
-    "_img/Pasted image 20250413154613.png",
-    "_img/Pasted image 20250413154538.png",
-    "_img/Pasted image 20250413154534.png",
-    "_img/Pasted image 20250413153438.png",
-    "_img/Pasted image 20250413153241.png",
     "_img",
     "pentesterlab/Commands_Injection.md",
     "pentesterlab/Code_Injection.md"

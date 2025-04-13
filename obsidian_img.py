@@ -8,7 +8,7 @@ image_base_url = "https://raw.githubusercontent.com/ryancranie/webappsec/refs/he
 image_local_path = os.path.join(markdown_root, "_img")
 
 # Regex pattern for [[ Pasted image {number}.png | {width} ]]
-pattern = re.compile(r"\[\[\s*Pasted image (\d+)\.png\s*\|\s*(\d+)\s*\]\]")
+pattern = re.compile(r"!\[\[\s*Pasted image (\d+)\.png\s*\|\s*(\d+)\s*\]\]")
 
 # Walk through all markdown files
 for root, dirs, files in os.walk(markdown_root):

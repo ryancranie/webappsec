@@ -72,13 +72,14 @@ include("/var/www/images/" . $file);
 
 **Useful targets**:
 
-|Linux|Windows|
-|---|---|
-|`/etc/passwd`|`C:\Windows\System32\drivers\etc\hosts`|
-|`/etc/shadow`|`C:\boot.ini`|
-|`/var/log/apache2/access.log`|`C:\Windows\System32\config\SAM`|
-|`/root/.bash_history`|`C:\Windows\debug\NetSetup.log`|
-|`/var/www/html/config.php`|`C:\inetpub\wwwroot\web.config`|
+| Linux                         | Windows                                 |
+| ----------------------------- | --------------------------------------- |
+| `/etc/passwd`                 | `C:\Windows\System32\drivers\etc\hosts` |
+| `/etc/shadow`                 | `C:\boot.ini`                           |
+| `/var/log/apache2/access.log` | `C:\Windows\System32\config\SAM`        |
+| `/root/.bash_history`         | `C:\Windows\debug\NetSetup.log`         |
+| `/var/www/html/config.php`    | `C:\inetpub\wwwroot\web.config`         |
+
 
 **Mitigation**:
 
@@ -90,6 +91,8 @@ include("/var/www/images/" . $file);
 
 - Simple: `?file=../../../../etc/passwd`
 - Absolute: `?file=/etc/passwd`
+
+
 
 **Bypasses**:
 

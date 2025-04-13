@@ -20,7 +20,7 @@
 	- effectively bypassing authentication or filters
 - `%23` decodes to `#`, everything after this is ignored
 
-![[Pasted image 20250413155539.png | 600]]
+!<img src="https://raw.githubusercontent.com/ryancranie/webappsec/refs/heads/main/_img/Pasted%20image%2020250413155539.png" width="600"/>
 
 ---
 

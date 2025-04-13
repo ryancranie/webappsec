@@ -7,7 +7,7 @@
 ### Vulnerable SQL Query
 
 ```sql
-```SELECT * FROM users WHERE name = '<user input>';
+SELECT * FROM users WHERE name = '<user input>';
 ```
 
 ### Payload

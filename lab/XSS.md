@@ -1,6 +1,3 @@
----
-aliases:
----
 # XSS
 
 ## Example 1 - Pop Up Script

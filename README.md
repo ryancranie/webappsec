@@ -8,5 +8,5 @@ Notes for my upcoming WAS Exam
 
 ## Completed Notes:
 - [WAS Module Summary](https://github.com/ryancranie/webappsec/blob/main/WAS%20Summary.md)
-- [XSS](https://github.com/ryancranie/webappsec/blob/main/lab/XSS.md)
-- [SQLi](https://github.com/ryancranie/webappsec/blob/main/lab/SQLi.md)
+- [XSS Skills Mock Notes](https://github.com/ryancranie/webappsec/blob/main/lab/XSS.md)
+- [SQLi Skills Mock Notes](https://github.com/ryancranie/webappsec/blob/main/lab/SQLi.md)

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lab/File_Upload.md",
+                "file": "WAS Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File_Upload"
+              "title": "WAS Summary"
             }
           }
         ]
@@ -171,17 +171,17 @@
   },
   "active": "36fe3eeb6f5ef59b",
   "lastOpenFiles": [
-    "notes/Web Shells.md",
     "lab/File_Upload.md",
-    "_img/Pasted image 20250413201620.png",
     "lab/File_Include.md",
     "lab/Directory_Traversal.md",
+    "lab/XSS.md",
+    "lab/XML_Attacks.md",
+    "notes/Web Shells.md",
+    "_img/Pasted image 20250413201620.png",
     "lab/Code_Injection.md",
     "lab/Commands_Injection.md",
     "lab/LDAP_Attacks.md",
     "lab/SQLi.md",
-    "lab/XML_Attacks.md",
-    "lab/XSS.md",
     "notes/Reconnaissance.md",
     "_img/Pasted image 20250413200926.png",
     "_img/Pasted image 20250413200203.png",

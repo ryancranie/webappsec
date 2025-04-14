@@ -17,8 +17,7 @@ SELECT * FROM users WHERE name = '<user input>';
 - `OR '1'='1'` is a condition which will **always be true**.
 	- effectively bypassing authentication or filters
 - `%23` decodes to `#`, everything after this is ignored
-OR
-`?name=root'OR '1'='1`
+- OR `?name=root'OR '1'='1`
 
 <img src="https://raw.githubusercontent.com/ryancranie/webappsec/refs/heads/main/_img/Pasted%20image%2020250413155539.png" width="600"/>
 
@@ -95,7 +94,7 @@ if (!preg_match('/[0-9]+$/', $_GET["id"])) {
 
 1. Find column count
 2. `Use UNION SELECT`
-3: Extract useful data
+3. Extract useful data
  - usernames
  - passwords
 
